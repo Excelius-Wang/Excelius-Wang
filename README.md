@@ -45,64 +45,39 @@
 ## 📊 Dashboard
 
 <!--
-  仪表盘参考自 github.com/Konano，采用 <picture> 深/浅色双版本 + 全透明背景。
-  streak / summary 用官方实例（镜像 *-mirror.vercel.app 已频繁 5xx）；stats 用加速实例。
-  若某张卡破图，可在官方/加速实例间互换域名：
+  仪表盘统一使用 dracula 主题（深紫底+浅字），深浅模式表现一致，故不再做 <picture> 双版本。
+  实例选择：stats 用加速实例；streak 用 demolab 官方；summary 用官方；trophy 用社区负载均衡端点。
+  若某张卡破图，可互换域名：
     github-readme-stats-fast.vercel.app      <-> github-readme-stats.vercel.app
     streak-stats.demolab.com                 <-> github-readme-streak-stats.vercel.app
     github-profile-summary-cards.vercel.app  <-> github-profile-summary-cards-mirror.vercel.app
-  注：trophy 官方实例 github-profile-trophy.vercel.app 已限流(402)，改用社区负载均衡端点
-      github-trophies.devomb.com；若失效可换其他志愿者端点(见 ryo-ma/github-profile-trophy README)
-      或 fork 自部署到 Vercel。
+    github-trophies.devomb.com               <-> 其他志愿者端点(见 ryo-ma/github-profile-trophy README)
+  换主题：把各 URL 的 theme=dracula 改成目标主题名即可。
 -->
 
 <table width="100%" align="center">
   <tr>
     <td colspan="3" align="center"><a href="https://github.com/anuraghazra/github-readme-stats">
-      <picture>
-        <source srcset="https://github-readme-stats-fast.vercel.app/api?username=Excelius-Wang&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&number_format=long&bg_color=00000000&theme=dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-readme-stats-fast.vercel.app/api?username=Excelius-Wang&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&number_format=long&bg_color=00000000" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=Excelius-Wang&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&number_format=long" height="100%" />
-      </picture>
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=Excelius-Wang&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&number_format=long&theme=dracula" height="100%" />
     </a></td>
     <td colspan="3" align="center"><a href="https://github.com/denvercoder1/github-readme-streak-stats">
-      <picture>
-        <source srcset="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true&background=00000000&theme=dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true&background=00000000" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true" height="100%" />
-      </picture>
+      <img src="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true&theme=dracula" height="100%" />
     </a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-      <picture>
-        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000" height="100%" />
-      </picture>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&theme=dracula" height="100%" />
     </a></td>
     <td colspan="2" align="center"><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-      <picture>
-        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000" height="100%" />
-      </picture>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&theme=dracula" height="100%" />
     </a></td>
     <td colspan="2" align="center"><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-      <picture>
-        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000" height="100%" />
-      </picture>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&theme=dracula" height="100%" />
     </a></td>
   </tr>
   <tr>
     <td colspan="6" align="center"><a href="https://github.com/ryo-ma/github-profile-trophy">
-      <picture>
-        <source srcset="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true&theme=onedark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true" width="100%" />
-      </picture>
+      <img src="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-frame=true&theme=dracula" width="100%" />
     </a></td>
   </tr>
 </table>
