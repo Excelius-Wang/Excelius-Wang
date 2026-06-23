@@ -51,7 +51,9 @@
     github-readme-stats-fast.vercel.app      <-> github-readme-stats.vercel.app
     streak-stats.demolab.com                 <-> github-readme-streak-stats.vercel.app
     github-profile-summary-cards.vercel.app  <-> github-profile-summary-cards-mirror.vercel.app
-  注：trophy 公共实例当前 402（额度耗尽、无镜像），恢复前该卡会破图。
+  注：trophy 官方实例 github-profile-trophy.vercel.app 已限流(402)，改用社区负载均衡端点
+      github-trophies.devomb.com；若失效可换其他志愿者端点(见 ryo-ma/github-profile-trophy README)
+      或 fork 自部署到 Vercel。
 -->
 
 <table width="100%" align="center">
@@ -97,9 +99,9 @@
   <tr>
     <td colspan="6" align="center"><a href="https://github.com/ryo-ma/github-profile-trophy">
       <picture>
-        <source srcset="https://github-profile-trophy.vercel.app/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true&theme=onedark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-trophy.vercel.app/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-trophy.vercel.app/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true" width="100%" />
+        <source srcset="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true&theme=onedark" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img src="https://github-trophies.devomb.com/?username=Excelius-Wang&column=7&row=1&margin-w=8&no-bg=true&no-frame=true" width="100%" />
       </picture>
     </a></td>
   </tr>
