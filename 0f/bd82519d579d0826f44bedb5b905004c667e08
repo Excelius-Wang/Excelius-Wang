@@ -1,0 +1,16 @@
+README.md
+  h_5c8aba00dab75e 16,18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0fbd82519d579d0826f44bedb5b905004c667e08",
+  "prompts": {},
+  "humans": {
+    "h_5c8aba00dab75e": {
+      "author": "zhao.wang <zhao.wang@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
