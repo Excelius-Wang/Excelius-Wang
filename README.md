@@ -13,11 +13,9 @@
 
 ## About Me
 
-- 🎓 MSc in Software Engineering @ **Beijing Jiaotong University** (211 / Double First-Class, top 10%); BEng @ Nantong University (top 5%).
+- 🎓 MSc in Software Engineering @ **Beijing Jiaotong University**; BEng @ Nantong University.
 - 🔬 I work on **LLM post-training** (SFT / LoRA / DPO), **alignment & preference optimization** (PPO / GRPO / reward modeling), **LLM agents** (LangChain / LangGraph), and **efficient inference** (vLLM).
-- 🧠 Comfortable with large-scale distributed training — up to **64× H800**.
-- 📝 Co-authored a research paper. <!-- 想更具体可加方向，例如 "on LLM alignment" -->
-- 🏆 National Encouragement Scholarship; provincial prize, National College Math Modeling Contest.
+- 📝 Co-authored a research paper.
 - ✍️ I write notes & blog posts at [excelius.xyz](https://www.excelius.xyz).
 
 ## Experience
