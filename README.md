@@ -20,9 +20,9 @@
 
 ## Experience
 
-- **ByteDance** (TikTok) — Algorithm Intern · *present*
-- **Baidu** — NLP Algorithm Intern, ERNIE foundation models
-- **Tsinghua Automotive Research Institute** — LLM Application & Full-stack Intern
+- **ByteDance** — Multimodal LLM Algorithm Intern · *present*
+- **Baidu** — LLM Post-training Algorithm Intern
+- **Tsinghua University, Institute of Vehicle Power & Intelligent Energy** — LLM Application & Full-stack Intern
 
 ## Tech Stack
 
@@ -34,11 +34,11 @@
 
 ## Featured Projects
 
-- [**dive-into-transformer-pytorch**](https://github.com/Excelius-Wang/dive-into-transformer-pytorch) — Transformer implemented from scratch; trains a classical-Chinese text generator on *Dream of the Red Chamber*.
-- [**Self-DeepResearch**](https://github.com/Excelius-Wang/Self-DeepResearch) — LangGraph multi-agent deep-research system (decompose → search → reflect → generate) with streaming output.
-- [**BERT_BiLSTM_CRF**](https://github.com/Excelius-Wang/BERT_BiLSTM_CRF) — Chinese NER pipeline; F1 = 78.05 (best in class).
-- [**paper-pilot**](https://github.com/Excelius-Wang/paper-pilot) — Auto-fetches arXiv / HuggingFace papers and generates AI summaries.
-- [**marginalia**](https://github.com/Excelius-Wang/marginalia) — A git-backed system for deep critical reading & structured notes.
+- [**dive-into-transformer-pytorch**](https://github.com/Excelius-Wang/dive-into-transformer-pytorch) ⭐6 — A Transformer language model built from scratch in PyTorch; trains an autoregressive classical-Chinese text generator on *Dream of the Red Chamber*, with multi-GPU data-parallel training, checkpointing, and loss visualization.
+- [**BERT_BiLSTM_CRF**](https://github.com/Excelius-Wang/BERT_BiLSTM_CRF) ⭐5 — Chinese named-entity recognition on a literary-prose corpus, built on BERT + BiLSTM + CRF (BJTU NLP coursework).
+- [**Self-DeepResearch**](https://github.com/Excelius-Wang/Self-DeepResearch) — An autonomous deep-research agent on LangGraph + Tavily: plan → search → reflect → generate, iterating to a cited report; Vue frontend with a streaming backend.
+- [**marginalia**](https://github.com/Excelius-Wang/marginalia) — A deep paper-reading skill for Claude Code / Codex that reconstructs the author's reasoning, stress-tests its weakest assumptions, and publishes structured notes to a Feishu knowledge base.
+- [**PyTorchClassics**](https://github.com/Excelius-Wang/PyTorchClassics) — Classic deep-learning models re-implemented from scratch in PyTorch (MLP, LeNet, attention …) — an ongoing study collection.
 
 ---
 
