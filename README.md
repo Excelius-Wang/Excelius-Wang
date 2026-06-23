@@ -1,9 +1,13 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:282a36,100:bd93f9&text=Excelius&fontColor=f8f8f2&fontSize=50&fontAlignY=36&desc=LLM%20post-training%20%C2%B7%20alignment%20%C2%B7%20agents&descSize=18&descAlignY=64&animation=fadeIn" alt="Hi, I'm Excelius" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:282a36,100:bd93f9&section=header" alt="banner" />
 </p>
 
 <p align="center">
-  MSc @ BJTU 🤖
+  <img src="https://readme-typing-svg.demolab.com/?font=Pacifico&size=55&color=bd93f9&center=true&vCenter=true&width=600&height=90&lines=Excelius" alt="Excelius" />
+</p>
+
+<p align="center">
+  LLM post-training · alignment · agents 🤖 — MSc @ BJTU
 </p>
 
 <p align="center">
