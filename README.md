@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:282a36,100:bd93f9&text=Excelius&fontColor=f8f8f2&fontSize=60&desc=LLM%20post-training%20%C2%B7%20alignment%20%C2%B7%20agents&descSize=18&descAlignY=60&animation=fadeIn" alt="Hi, I'm Excelius" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:282a36,100:bd93f9&text=Excelius&fontColor=f8f8f2&fontSize=50&fontAlignY=36&desc=LLM%20post-training%20%C2%B7%20alignment%20%C2%B7%20agents&descSize=18&descAlignY=64&animation=fadeIn" alt="Hi, I'm Excelius" />
 </p>
 
 <p align="center">
