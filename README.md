@@ -46,10 +46,12 @@
 
 <!--
   仪表盘参考自 github.com/Konano，采用 <picture> 深/浅色双版本 + 全透明背景。
-  卡片走加速/镜像实例（官方 Vercel 常被限流）；若某张卡破图，可把域名换成官方实例：
-    github-readme-stats-fast.vercel.app          -> github-readme-stats.vercel.app
-    github-readme-streak-stats-mirror.vercel.app -> streak-stats.demolab.com
-    github-profile-summary-cards-mirror.vercel.app -> github-profile-summary-cards.vercel.app
+  streak / summary 用官方实例（镜像 *-mirror.vercel.app 已频繁 5xx）；stats 用加速实例。
+  若某张卡破图，可在官方/加速实例间互换域名：
+    github-readme-stats-fast.vercel.app      <-> github-readme-stats.vercel.app
+    streak-stats.demolab.com                 <-> github-readme-streak-stats.vercel.app
+    github-profile-summary-cards.vercel.app  <-> github-profile-summary-cards-mirror.vercel.app
+  注：trophy 公共实例当前 402（额度耗尽、无镜像），恢复前该卡会破图。
 -->
 
 <table width="100%" align="center">
@@ -63,32 +65,32 @@
     </a></td>
     <td colspan="3" align="center"><a href="https://github.com/denvercoder1/github-readme-streak-stats">
       <picture>
-        <source srcset="https://github-readme-streak-stats-mirror.vercel.app/?user=Excelius-Wang&mode=weekly&hide_border=true&background=00000000&theme=dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-readme-streak-stats-mirror.vercel.app/?user=Excelius-Wang&mode=weekly&hide_border=true&background=00000000" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-readme-streak-stats-mirror.vercel.app/?user=Excelius-Wang&mode=weekly&hide_border=true" height="100%" />
+        <source srcset="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true&background=00000000&theme=dark" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true&background=00000000" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img src="https://streak-stats.demolab.com/?user=Excelius-Wang&mode=weekly&hide_border=true" height="100%" />
       </picture>
     </a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
       <picture>
-        <source srcset="https://github-profile-summary-cards-mirror.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-summary-cards-mirror.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-summary-cards-mirror.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000" height="100%" />
+        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Excelius-Wang&border_color=0000&bg_color=0000" height="100%" />
       </picture>
     </a></td>
     <td colspan="2" align="center"><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
       <picture>
-        <source srcset="https://github-profile-summary-cards-mirror.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-summary-cards-mirror.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-summary-cards-mirror.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000" height="100%" />
+        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Excelius-Wang&border_color=0000&bg_color=0000" height="100%" />
       </picture>
     </a></td>
     <td colspan="2" align="center"><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
       <picture>
-        <source srcset="https://github-profile-summary-cards-mirror.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
-        <source srcset="https://github-profile-summary-cards-mirror.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://github-profile-summary-cards-mirror.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000" height="100%" />
+        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000&theme=nord_dark" media="(prefers-color-scheme: dark)" />
+        <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000&theme=nord_bright" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Excelius-Wang&utcOffset=8&border_color=0000&bg_color=0000" height="100%" />
       </picture>
     </a></td>
   </tr>
