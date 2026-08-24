@@ -50,6 +50,12 @@
 
 ## 📊 Dashboard
 
+<p align="center">
+  <a href="https://ghfind.com/u/excelius-wang?ref=badge">
+    <img src="https://ghfind.com/api/card/mini/excelius-wang?lang=zh" alt="ghfind GitHub 评分卡" width="440" />
+  </a>
+</p>
+
 <!--
   仪表盘统一使用 dracula 主题（深紫底+浅字），深浅模式表现一致，故不再做 <picture> 双版本。
   实例选择：stats 用加速实例；streak 用 demolab 官方；summary 用官方；trophy 用社区负载均衡端点。
