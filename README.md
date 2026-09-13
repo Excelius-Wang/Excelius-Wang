@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  LLM post-training · alignment · agents 🤖 — MSc @ BJTU
+  LLM post-training · alignment · evaluation · agents 🤖 — MSc @ BJTU
 </p>
 
 <p align="center">
@@ -20,7 +20,8 @@
 ## About Me
 
 - 🎓 MSc in Software Engineering @ **Beijing Jiaotong University**; BEng @ Nantong University.
-- 🔬 I work on **LLM post-training** (SFT / LoRA / DPO), **alignment & preference optimization** (PPO / GRPO / reward modeling), **LLM agents** (LangChain / LangGraph), and **efficient inference** (vLLM).
+- 🔬 I work on **LLM post-training, alignment, and evaluation**, and build **LLM agents** and developer tools.
+- 🛠️ I contribute fixes to open-source training, evaluation, and agent frameworks, with a focus on numerical stability, metric correctness, and reliable runtime behavior.
 - 📝 Co-authored a research paper.
 - ✍️ I write notes & blog posts at [excelius.xyz](https://www.excelius.xyz).
 
@@ -30,21 +31,32 @@
 - **Baidu** — LLM Post-training Algorithm Intern
 - **Tsinghua University, Institute of Vehicle Power & Intelligent Energy** — LLM Application & Full-stack Intern
 
+## Open Source Contributions
+
+**45 merged PRs across external open-source repositories**, covering code fixes, tests, and documentation. Counts below include merged PRs only, as of **September 13, 2026**.
+
+- **OpenRLHF — 7 merged PRs**: Improved PPO numerical stability, reward computation, checkpoint recovery, evaluation batch handling, and multi-turn rollout truncation. Selected PRs: [k3 KL gradients #1335](https://github.com/OpenRLHF/OpenRLHF/pull/1335) · [FP32 reward shaping #1334](https://github.com/OpenRLHF/OpenRLHF/pull/1334) · [checkpoint recovery #1333](https://github.com/OpenRLHF/OpenRLHF/pull/1333) · [rollout truncation #1327](https://github.com/OpenRLHF/OpenRLHF/pull/1327).
+- **ms-swift — 6 merged PRs**: Fixed NLG metric aggregation, inference error propagation, prompt token accounting, SSE handling, and training integration compatibility. Selected PRs: [empty prediction scoring #9962](https://github.com/modelscope/ms-swift/pull/9962) · [worker errors #10093](https://github.com/modelscope/ms-swift/pull/10093) · [prompt usage #10094](https://github.com/modelscope/ms-swift/pull/10094) · [Megatron integration #10025](https://github.com/modelscope/ms-swift/pull/10025).
+- **EvalScope — 6 merged PRs**: Corrected ASR word error rates, streaming latency measurements, multimodal image inputs, and Terminal-Bench reward validation; also updated evaluation configuration and documentation. Selected PRs: [ASR scoring #1722](https://github.com/modelscope/evalscope/pull/1722) · [TTFT / ITL #1645](https://github.com/modelscope/evalscope/pull/1645) · [image inputs #1618](https://github.com/modelscope/evalscope/pull/1618) · [trial rewards #1610](https://github.com/modelscope/evalscope/pull/1610).
+- **OpenAI Agents Python — 3 merged PRs**: Fixed session deletion under cancellation, model-provider cleanup, and type annotations for variadic tool arguments. PRs: [session cleanup #4790](https://github.com/openai/openai-agents-python/pull/4790) · [provider lifecycle #4785](https://github.com/openai/openai-agents-python/pull/4785) · [tool arguments #4655](https://github.com/openai/openai-agents-python/pull/4655).
+
+Other merged contributions include **Atomic Agents (4)**, **LiveKit Agents (2)**, **MCP Servers (1)**, **OpenAI Agents JS (1)**, and **Axolotl (1)**. Examples: [MCP resource templates](https://github.com/Eigenwise/atomic-agents/pull/280) · [turn cancellation](https://github.com/livekit/agents/pull/6913) · [UTF-8 file reads](https://github.com/modelcontextprotocol/servers/pull/4667) · [hosted MCP outputs](https://github.com/openai/openai-agents-js/pull/1747) · [activation checkpointing compatibility](https://github.com/axolotl-ai-cloud/axolotl/pull/3942).
+
 ## Tech Stack
 
-- **Languages**: Python, C++, TypeScript / JavaScript
-- **LLM / Post-training**: PyTorch, HuggingFace Transformers, LLaMA-Factory, ms-swift, vLLM
-- **Alignment / RL**: SFT, LoRA, DPO, PPO, GRPO, Reward Modeling (GenRM, LLM-as-a-Judge)
-- **Agents**: LangChain, LangGraph (ReAct, Tool Calling, Plan-and-Execute)
-- **Infra**: multi-node multi-GPU training, Git, Docker
+- **Languages**: Python, C++, TypeScript / JavaScript, Rust
+- **LLM / Post-training**: PyTorch, Hugging Face Transformers, LLaMA-Factory, ms-swift, vLLM
+- **Alignment / Evaluation**: SFT, LoRA, DPO, PPO, GRPO, reward modeling, LLM-as-a-Judge, EvalScope
+- **Agents**: LangChain, LangGraph, tool calling, ReAct, plan-and-execute workflows
+- **Applications / Infra**: React, Vue, FastAPI, Tauri, multi-node multi-GPU training, Git, Docker
 
 ## Featured Projects
 
-- [**dive-into-transformer-pytorch**](https://github.com/Excelius-Wang/dive-into-transformer-pytorch) ⭐6 — A Transformer language model built from scratch in PyTorch; trains an autoregressive classical-Chinese text generator on *Dream of the Red Chamber*, with multi-GPU data-parallel training, checkpointing, and loss visualization.
-- [**BERT_BiLSTM_CRF**](https://github.com/Excelius-Wang/BERT_BiLSTM_CRF) ⭐5 — Chinese named-entity recognition on a literary-prose corpus, built on BERT + BiLSTM + CRF (BJTU NLP coursework).
-- [**Self-DeepResearch**](https://github.com/Excelius-Wang/Self-DeepResearch) — An autonomous deep-research agent on LangGraph + Tavily: plan → search → reflect → generate, iterating to a cited report; Vue frontend with a streaming backend.
-- [**marginalia**](https://github.com/Excelius-Wang/marginalia) — A deep paper-reading skill for Claude Code / Codex that reconstructs the author's reasoning, stress-tests its weakest assumptions, and publishes structured notes to a Feishu knowledge base.
-- [**PyTorchClassics**](https://github.com/Excelius-Wang/PyTorchClassics) — Classic deep-learning models re-implemented from scratch in PyTorch (MLP, LeNet, attention …) — an ongoing study collection.
+- [**Repolane**](https://github.com/Excelius-Wang/harbor) — A GitHub desktop workspace for browsing code, reviewing pull requests, and managing repository work, built with React, TypeScript, Rust, and Tauri. Repository: `harbor`; actively developing, with no packaged public release yet.
+- [**Self-DeepResearch**](https://github.com/Excelius-Wang/Self-DeepResearch) — An iterative research agent built with LangGraph and Tavily: plan → search → review → report, with a Vue frontend and FastAPI streaming backend.
+- [**marginalia**](https://github.com/Excelius-Wang/marginalia) — A paper-reading skill for Claude Code / Codex that reconstructs a paper's reasoning, examines its assumptions, and publishes structured notes with figures and formulas to a Feishu knowledge base.
+- [**dive-into-transformer-pytorch**](https://github.com/Excelius-Wang/dive-into-transformer-pytorch) — A Transformer language model implemented in PyTorch and trained on *Dream of the Red Chamber*, with DDP multi-GPU training, checkpoint saving, and training-curve visualization.
+- [**BERT_BiLSTM_CRF**](https://github.com/Excelius-Wang/BERT_BiLSTM_CRF) — Chinese named-entity recognition with BERT + BiLSTM + CRF, developed for BJTU NLP coursework.
 
 ---
 
